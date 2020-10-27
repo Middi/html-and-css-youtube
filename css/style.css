@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background: #3a434e;
+}
+
+main, footer {
+    background: #30363f;
+}
+
+.storage {
+    background: #e0e0de;
+    padding: 80px 0;
+}
+
+.secure {
+    background: #eceae7;
+}
+
+header li {
+    display: inline-block;
+}
+
+.nav-item {
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.nav-item:hover {
+    color: #ffac37;
+}
+
+.container {
+    max-width: 1080px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.cont-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+}
+
+.cont-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #fcfcfc;
+    font-weight: 200;
+    font-size: 46px;
+    line-height: 1;
+}
+
+h2 {
+    color: #30363f;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+h3 {
+    color: #ffac37;
+    font-weight: 200;
+}
+
+h4 {
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+
+p {
+    padding: 12px 0;
+}
+
+.heading-center {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* buttons */
+.btn {
+    display: inline-block;
+    color: #fcfcfc;
+    border-radius: 40px;
+    padding: 14px 30px;
+    text-decoration: none;
+    margin-top: 32px;
+}
+
+.btn-nav {
+    border: 1px solid #ffac37;
+    margin: 10px 0;
+}
+
+.btn-nav:hover {
+    background: #ffac37;
+    color: #3a434e;
+}
+
+.btn-solid-blue {
+    background: #4195f6;
+}
+
+.btn-solid-blue:hover {
+    background: #417cc2;
+}
+
+.text-content {
+    padding: 90px 0;
+}
+
+.hero-list {
+    color: #fcfcfc;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    border: 1px solid #3a434e;
+    width: 300px;
+    border-radius: 6px;
+    background: #eceae7;
+    text-align: center;
+    margin: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #fcfcfc;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 880px) {
+    .hero-img, .secure-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-link {
+        display: none;
+    }
+}
